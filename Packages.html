@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
@@ -62,7 +62,7 @@
                             </ul>
                         </div>
                         <div class="card-footer bg-white border-0 pt-0">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
                                 <div>
                                     <small class="text-muted d-block">Starting from</small>
                                     <h4 class="text-success fw-bold mb-0">₹15,999</h4>
@@ -90,7 +90,7 @@
                             </ul>
                         </div>
                         <div class="card-footer bg-white border-0 pt-0">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
                                 <div>
                                     <small class="text-muted d-block">Starting from</small>
                                     <h4 class="text-success fw-bold mb-0">₹18,499</h4>
@@ -118,7 +118,7 @@
                             </ul>
                         </div>
                         <div class="card-footer bg-white border-0 pt-0">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
                                 <div>
                                     <small class="text-muted d-block">Starting from</small>
                                     <h4 class="text-success fw-bold mb-0">₹12,999</h4>
@@ -133,8 +133,56 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p class="mb-0">© 2026 ChaloChale Travel App | Designed with Bootstrap</p>
+    <footer class="site-footer bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <h5 class="fw-bold"><i class="fa-solid fa-plane-departure me-2"></i>ChaloChale</h5>
+                    <p class="text-white-50 mb-0">Curated travel packages, trusted stays and 24/7 support for your next
+                        trip across India.</p>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="fw-bold mb-3">Explore</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a class="link-light" href="index.html">Home</a></li>
+                        <li class="mb-2"><a class="link-light" href="destinations.html">Destinations</a></li>
+                        <li class="mb-2"><a class="link-light" href="Packages.html">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a class="link-light" href="booking.html">Booking</a></li>
+                        <li class="mb-2"><a class="link-light" href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a class="link-light" href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6 class="fw-bold mb-3">Get in Touch</h6>
+                    <ul class="list-unstyled mb-3">
+                        <li class="mb-2"><i class="fa-solid fa-envelope me-2"></i><a class="link-light"
+                                href="mailto:support@chalochale.com">support@chalochale.com</a></li>
+                        <li class="mb-2"><i class="fa-solid fa-phone me-2"></i><a class="link-light"
+                                href="tel:+911800123456">+91 1800 123 456</a></li>
+                    </ul>
+                    <div class="d-flex gap-3 fs-5">
+                        <a class="link-light" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="link-light" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="link-light" href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="link-light" href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 text-center text-sm-start">
+                <p class="mb-0 small">&copy; 2026 ChaloChale Travel App | Designed with Bootstrap</p>
+                <ul class="list-inline mb-0 small">
+                    <li class="list-inline-item"><a class="link-light" href="#">Privacy Policy</a></li>
+                    <li class="list-inline-item"><a class="link-light" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
